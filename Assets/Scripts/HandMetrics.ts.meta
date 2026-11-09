@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/bfd908f5-f5fd-4b91-9090-6f85f318d282>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5fcb38bb-bda6-4bfc-9600-17c246660f1f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5fcb38bb-bda6-4bfc-9600-17c246660f1f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> b66cab92-98e5-431f-a5aa-c4caa797306b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/b66cab92-98e5-431f-a5aa-c4caa797306b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 1b837100-7c27-479a-a931-4cf5dd6b0197
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    devMockHand: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - devMockHand: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input bool devMockHand {"hint":"Dev only: simulate the chosen hand in the hand zone (the Preview has no hand tracking). The thumb touches each fingertip in turn."}'

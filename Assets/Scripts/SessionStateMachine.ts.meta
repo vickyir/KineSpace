@@ -1,0 +1,49 @@
+- !<AssetImportMetadata/fe0d38bb-ad90-4a18-97e5-f76e7ec1e51d>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 4d1a2390-55d1-4118-9d49-39bf13a3637b
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 4d1a2390-55d1-4118-9d49-39bf13a3637b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 7536b33d-11c5-4be1-80ca-d78f29ae1605
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/7536b33d-11c5-4be1-80ca-d78f29ae1605>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 8f6c576e-b0a1-42b4-a6c5-120593605375
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    autoStart: false
+    devStartAt: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - autoStart: true
+      devStartAt: ""
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input bool autoStart = true {"hint":"Start the session flow automatically when the Lens starts."}'
+    - '// @input string devStartAt {"hint":"Dev only: open this screen ID at launch (e.g. 1c) to review it. Leave empty for the normal flow."}'

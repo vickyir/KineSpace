@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/69f1641c-4c78-4ece-beca-de80bc3a330a>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 2db1016e-b02b-4132-ad45-f253013addcf
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 2db1016e-b02b-4132-ad45-f253013addcf
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> acfe3820-738c-4701-9f44-84b9c5973f0f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/acfe3820-738c-4701-9f44-84b9c5973f0f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 9dcc3a4d-746f-4a47-9b23-4598c196d3d2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    runOnStart: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - runOnStart: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input bool runOnStart {"hint":"Run once when the Lens starts (dev only). Leaves stored data as it was."}'

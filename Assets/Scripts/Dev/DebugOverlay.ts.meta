@@ -1,0 +1,46 @@
+- !<AssetImportMetadata/e11d9037-4196-4b37-bccf-01839a1fe120>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> ae8eaf17-940a-4f94-bfdd-864f2053a7c2
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> ae8eaf17-940a-4f94-bfdd-864f2053a7c2
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> d33bf172-804b-49df-9e96-8d8d7a43bb61
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/d33bf172-804b-49df-9e96-8d8d7a43bb61>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: e1083238-f7d1-4acf-bb2f-07e334620252
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    showOverlay: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - showOverlay: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input bool showOverlay = true {"hint":"Show the overlay when the Lens starts. Say \"debug\" to toggle at runtime."}'
