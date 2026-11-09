@@ -6,6 +6,8 @@ It is built with **Lens Studio 5.24.1**, Spectacles Interaction Kit and Spectacl
 
 > **Status:** built and checked in the **Lens Studio simulator (Preview panel)** only. It has not run on a Spectacles device yet. Hand tracking, pinch and voice in the simulator are simulated or replaced by dev shortcuts (see [§3](#3-use-it-in-the-simulator)). The device plan is in [`Docs/DEVICE_TEST_CHECKLIST.md`](Docs/DEVICE_TEST_CHECKLIST.md).
 
+**Hackathon submission:** the project story, the technology requirement and the planning documents are collected in [`devpost/`](devpost/README.md).
+
 **Contents**
 
 1. [Install](#1-install)
