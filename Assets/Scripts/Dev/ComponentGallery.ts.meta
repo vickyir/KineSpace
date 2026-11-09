@@ -28,7 +28,7 @@
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
-    showVoidBackdrop: false
+    {}
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -38,9 +38,10 @@
   Attachments:
     []
   DefaultScriptInputs:
-    - showVoidBackdrop: true
+    -
+      {}
   ScriptTypes:
     -
       {}
   InputLines:
-    - '// @input bool showVoidBackdrop = true {"hint":"Black plane behind the gallery so the Lens Studio preview reads like the additive display (black = transparent)."}'
+    []

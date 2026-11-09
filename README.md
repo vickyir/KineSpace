@@ -82,6 +82,8 @@ The **Preview** panel is the simulator. The project already uses these settings;
 
 The Lens draws only in the middle band of the preview, where the Spectacles display is. That is expected.
 
+The Preview camera starts tilted about 12° down, while windows open level with your eyes, so the top of the first card can be cut off. Hold the **right mouse button** and drag up a little until the small Aim dot sits in the middle of the card.
+
 To restart the Lens from the beginning, use the Preview panel's refresh/reset button. Saving a script also restarts it.
 
 ### Step 5 — Learn the simulator controls

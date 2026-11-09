@@ -28,6 +28,7 @@
   ExportUid: 00000000-0000-0000-0000-000000000000
   PackagePolicy: CanBeUnpacked
   ScriptInputsHidden:
+    devSeedHeadRom: false
     resetOnStart: false
   ScriptTypesHidden:
     {}
@@ -39,8 +40,10 @@
     []
   DefaultScriptInputs:
     - resetOnStart: false
+      devSeedHeadRom: false
   ScriptTypes:
     -
       {}
   InputLines:
     - '// @input bool resetOnStart {"hint":"Dev only: clear calibration, history and flags at launch (first-run testing). Keep off for release."}'
+    - '// @input bool devSeedHeadRom {"hint":"Dev only: fill uncalibrated head ranges with sample values so W, 4b, 4d and 4e can be previewed without running 1c. Keep off for release."}'
